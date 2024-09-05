@@ -1,0 +1,29 @@
+.Education-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin: 5% 2%;
+  flex-wrap: wrap;
+}
+
+.Education-card-container {
+  align-items: center;
+  width: 30%;
+  padding: 2.5% 5%;
+  line-height: 1.5;
+  background: #7f4b23;
+  color: #EEEEEE;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 3% 0;
+}
+
+@media (max-width: 960px) {
+  .Education-container {
+    flex-direction: column;
+  }
+  .Education-card-container {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Education.css.map */

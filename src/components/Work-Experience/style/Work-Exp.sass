@@ -1,0 +1,43 @@
+$work-desc-color: rgba(46, 37, 37, 0.7)
+$work-duration-color: rgba(0,0,0,0.6)
+$line-height-choosen: 1.5
+
+.work-exp-container
+  width: 100%
+  margin-top: 10%
+
+.work-card-container
+  padding: 2% 3%
+  margin: 4% 10% 4% 15%
+  border: 1px solid rgb(34, 40, 49,0.6)
+  border-radius: 10px
+
+.work-card-img-container
+  display: flex
+  align-items: center
+
+.work-card-img-container
+  p 
+    font-size: 22px
+    line-height: $line-height-choosen
+ 
+.work-card-company-details
+  display: flex
+  justify-content: space-between
+  p
+    i
+      color: $work-duration-color
+      
+.work-details-desc
+  margin: 1% 2%
+  line-height: $line-height-choosen
+
+.work-details-desc
+  li
+    font-size: 15px
+    color: $work-desc-color
+
+
+@media (min-width: 960px)
+  .work-card-container
+    margin: 4% 5% 4% 5% 

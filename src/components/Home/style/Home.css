@@ -1,0 +1,154 @@
+.DesktopNavigation {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background: #321704;
+  color: white;
+  position: fixed;
+  top: 0;
+  height: 10vh;
+}
+
+.nameLogo {
+  width: 25%;
+  font-size: 24px;
+  position: relative;
+  top: 35%;
+  display: flex;
+  align-tems: center;
+  justify-content: center;
+}
+
+nav {
+  color: white;
+}
+
+.NavLinks {
+  width: 75%;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  justify-content: right;
+  position: relative;
+  top: 35%;
+  margin-right: 5%;
+}
+nav ul li {
+  font-size: 18px;
+  margin: 0 2%;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.About-section-container {
+  height: 100%;
+  margin: 10% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.About-section-container .About-info-section {
+  align-self: center;
+  line-height: 1.5;
+}
+.About-section-container .About-info-section h2 {
+  font-size: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.resume-button {
+  margin: 3% 0;
+  background: #6A2402;
+  color: white;
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.about-section-img {
+  border-radius: 10px;
+}
+
+.profileImgDimensions {
+  width: 500px;
+  height: 500px;
+}
+
+.socialMedia-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 4% 0;
+}
+
+.MobileNavigation {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .About-section-container {
+    flex-direction: column-reverse;
+    margin: 2% 5% 5%;
+  }
+  .profileImgDimensions {
+    width: 100%;
+    height: auto;
+  }
+  .socialMedia-icons {
+    width: 100%;
+    justify-content: space-around;
+    margin: 5% 0;
+  }
+  .DesktopNavigation {
+    display: none;
+  }
+  .MobileNavigation {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: #321704;
+    color: white;
+    width: 100%;
+  }
+  .nameLogo {
+    margin-left: 7%;
+    position: relative;
+    top: 5%;
+    width: 70%;
+  }
+  .NavLinks ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    border-top: 3px solid orange;
+    top: 10vh;
+    right: 0;
+    height: 50vh;
+    width: 100%;
+    background: #321704;
+  }
+  .HamburgerMenu {
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=Home.css.map */

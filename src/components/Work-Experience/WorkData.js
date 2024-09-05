@@ -34,5 +34,9 @@ export const WorkData = [
     position: "UI/UX Designer Intern",
     place: "Remote , India",
     duration: "06/2021 - 08/2021",
+    description: [
+      "Product Designing : Understand the process of imagining, creating, and iterating products that solve users’ problems or address specific needs in a given market.",
+      "Implemented designs and prototyping for both mobile and web views.",
+    ],
   },
 ];

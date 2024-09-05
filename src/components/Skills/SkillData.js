@@ -62,7 +62,7 @@ export const platformData = [
 export const softSkillData = [
   {
     id: 1,
-    name: "Leadership",
+    name: "Communication",
   },
   {
     id: 2,
@@ -74,7 +74,11 @@ export const softSkillData = [
   },
   {
     id: 4,
-    name: "Panctual",
+    name: "Adaptive",
+  },
+  {
+    id: 4,
+    name: "Leadership",
   },
 ];
 

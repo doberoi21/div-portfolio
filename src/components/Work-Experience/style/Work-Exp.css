@@ -40,6 +40,8 @@
 
 @media (min-width: 960px) {
   .work-card-container {
-    margin: 4% 5% 4% 5%;
+    padding: 4% 5%;
+    margin: 2% 5%;
+    width: 90%; 
   }
 }/*# sourceMappingURL=Work-Exp.css.map */

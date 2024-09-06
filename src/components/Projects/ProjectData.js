@@ -3,13 +3,13 @@ import WeatherApp from "../../assets/Projects/WeatherApp.png";
 import WeatherWebApp from "../../assets/Projects/WeatherWebApp.png";
 import GadgetBazaar from "../../assets/Projects/GadgetBazaar.png";
 import FoodRecipe from "../../assets/Projects/FoodRecipe.png";
-import Portfolio from '../../assets/Projects/Portfolio.png';
+import Portfolio from "../../assets/Projects/Portfolio.png";
 
 export const ProjectData = [
   {
     projName: "Developer Portfolio",
     description: [
-      "I am building a personal portfolio website using ReactJS to showcase my projects, skills, and professional experience. This project involves creating a clean and responsive user interface to highlight my work effectively. .",
+      "I built a personal portfolio website using ReactJS to showcase my projects, skills, and professional experience. This project involves creating a clean and responsive user interface to highlight my work effectively.",
     ],
     urlLink: "https://iamdivyanshi-oberoi.netlify.app/",
     imgData: Portfolio,
@@ -17,7 +17,7 @@ export const ProjectData = [
   {
     projName: "To-Do App",
     description: [
-      "Created an intuitive weather web app that automatically detects and displays the user's current city while also enabling searches for other locations.",
+      "Developed a mobile To-Do application to facilitate seamless note addition, deletion, and updating. Engineered the app to ensure smooth user interactions and efficient task management.",
     ],
     urlLink: "https://github.com/doberoi21/ToDoApp",
     imgData: ToDoApp,
@@ -25,7 +25,7 @@ export const ProjectData = [
   {
     projName: "Weather App",
     description: [
-      "Created an intuitive weather app using React Native that defaults to the user’s current city and enables searches for other locations",
+      "Created an intuitive weather mobile app using React Native that automatically detects the user’s current city and enables searches for other locations",
     ],
     urlLink: "https://github.com/doberoi21/WeatherApp",
     imgData: WeatherApp,
@@ -33,7 +33,7 @@ export const ProjectData = [
   {
     projName: "Weather Web-App",
     description: [
-      "Developed a mobile To-Do application to facilitate seamless note addition, deletion, and updating. Engineered the app to ensure smooth user interactions and efficient task management",
+      "Developed a user-friendly weather web app that provides detailed information such as temperature, wind speed, humidity, and visibility for the city entered by the user. "
     ],
     urlLink: "https://weatherapp-9dbd7.firebaseapp.com/",
     imgData: WeatherWebApp,
@@ -41,7 +41,7 @@ export const ProjectData = [
   {
     projName: "GADGET BAZAR ( E-Commerce Website)",
     description: [
-      "Implemented an API that retrieves recipes based on user-inputted ingredients. Designed and developed a system to fetch and display recipes containing the specified ingredient, enhancing user experience and improving search functionality.",
+      "Developed an e-commerce web application similar to Flipkart using React.js , CSS , HTML . Optimized user experience to enhance functionality and performance.",
     ],
     urlLink: "https://divyanshioberoi.netlify.app/",
     imgData: GadgetBazaar,
@@ -49,7 +49,7 @@ export const ProjectData = [
   {
     projName: "Food Recipe : Web Application",
     description: [
-      "Developed an e-commerce web application similar to Flipkart using React.js , CSS , HTML . Optimized user experience to enhance functionality and performance.",
+      "Implemented an API that retrieves recipes based on user-inputted ingredients. Designed and developed a system to fetch and display recipes containing the specified ingredient, enhancing user experience and improving search functionality.",
     ],
     urlLink: "https://food-recipe-db4bc.web.app/",
     imgData: FoodRecipe,

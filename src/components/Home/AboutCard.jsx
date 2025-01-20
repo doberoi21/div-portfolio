@@ -29,7 +29,7 @@ function AboutCard() {
           ))}
         </div>
         <a
-          href="https://drive.google.com/file/d/1ztSew0P6oEhutjoyIGc1oyS3rHeszjxx/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Lm42d9IFaOpz8azyiFYSOqO-p5ZiX0Kc/view?usp=sharing"
           target="__blank"
         >
           <div className="resume-button">
